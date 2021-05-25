@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Letter</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../styles/main.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+	<style>
+	#next{
+	position:absolute;
+	width:50px;
+	left:1000px;
+	}
+	</style>
+</head>
+<body>
+<!-- 	<div class="center"> -->
+		<img id="letter" class="center" ondblclick="openLetter()" src="../assets/envelopes/envelope-closed.png">
+		<a href="cohorts.html"><img id="next" src="../assets/envelopes/next.png"></a>
+<!-- 	</div> -->
+</body>
+<script type="text/javascript" src="../scripts/draggable.js"></script>
+<script>
+	var letterCounter=0;
+	function openLetter(){
+		letter=document.getElementById('letter');
+		if(letterCounter==0){
+			letter.src="../assets/envelopes/envelope-open.png";
+			letterCounter++;
+		}else if(letterCounter==1){
+			letter.src="../assets/envelopes/berry.png";
+			letterCounter=0;
+		}
+	}
+</script>
+</html>

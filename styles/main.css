@@ -1,0 +1,56 @@
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:-50px;
+  margin-top:100px;
+  width:30%;
+/*  border:2px solid #ccc;*/
+}
+#flip{
+	position:absolute;
+	width:50px;
+}
+#cohorts{
+	 margin-top:200px;
+	 width: 50%;
+}
+#cohorts img{
+	margin:30px;
+	opacity:50%;
+}
+#cohorts img:hover{
+	opacity:100%;
+}
+.cohort{
+	width:250px;
+}
+.postcard{
+	width:200px;
+	margin:10px;
+/*	border-style:double;*/
+	border:solid 5px white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.postcards{
+	width: 70%;	
+}
+.cardContainer{
+	position:absolute;
+	left:100px;
+}
+.card{
+	width:700px;
+}
+.example{
+	position:absolute;
+	left:1300px;
+	width:400px;
+}
+.front{
+	border:2px solid #ccc;
+	border-radius:50px;
+	width:700px;
+	height:434px;
+	overflow:hidden;
+}
