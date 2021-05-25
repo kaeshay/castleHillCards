@@ -29,8 +29,9 @@
 	width:200px;
 	margin:10px;
 /*	border-style:double;*/
-	border:solid 5px white;
+/*	border:solid 5px white;*/
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius:10px;
 }
 .postcards{
 	width: 70%;	
